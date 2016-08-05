@@ -1,0 +1,314 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.479546, 44.2431381]
+      },
+      "properties": {
+        "type": "start",
+        "events": [
+          {
+            "date": "2016-08-03T06:56",
+            "type": "text",
+            "message": "Trip is perfect so far."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.4419637, 44.2930655]
+      },
+      "properties": {
+        "type": "checkin",
+        "events": [
+          {
+            "date": "2016-08-03T08:06",
+            "type": "text",
+            "message": "@ Kingston mills"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3851091, 44.3558887]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-03T10:29",
+            "type": "text",
+            "message": "Water has been calm. Roughest part was at departure dock. Narrow parts have been like glass. Open parts we've had a gentle breeze at our backs. Light clouds have made it very pleasant."
+          },
+          {
+            "date": "2016-08-03T10:30",
+            "type": "text",
+            "message": "Thinking of setting up camp at lower or upper brewer and relaxing rest of day."
+          },
+          {
+            "date": "2016-08-03T10:31",
+            "type": "text",
+            "message": "Seen some awesome birds."
+          },
+          {
+            "date": "2016-08-03T10:32",
+            "type": "text",
+            "message": "No emus though."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3249266, 44.3894743]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-03T13:20",
+            "type": "text",
+            "message": "At lower Brewers. Looked at outdoor art going to a bakery then lunch before continuing to upper Brewers"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3132588, 44.4128134]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-03T15:56",
+            "type": "text",
+            "message": "Relaxing at upper Brewers. Tent set up. Hot showers!"
+          },
+          {
+            "date": "2016-08-04T06:05",
+            "type": "text",
+            "message": "Heading out for seeleys bay"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.2370508, 44.478723]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-04T09:20",
+            "type": "text",
+            "message": "Having breakfast right now in Seeleys bay"
+          },
+          {
+            "date": "2016-08-04T09:20",
+            "type": "text",
+            "message": "Leaving Seeleys bay heading for Jones falls"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.2346386, 44.5295368]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-04T10:45",
+            "type": "text",
+            "message": "Taking a break in a shady spot. Less than 2 k to Jones falls."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.2380936, 44.5449479]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-04T12:09",
+            "type": "text",
+            "message": "Reached Jones 10 minutes after last text. Huge high portage. They leant us wheels. On rest stop and inflating flat. Hopefully."
+          },
+          {
+            "date": "2016-08-04T12:12",
+            "type": "text",
+            "message": "On schedule. We don't want to paddle in the heat and high sun. We are hoping to get to the next locks when it cools a bit."
+          },
+          {
+            "date": "2016-08-04T12:19",
+            "type": "text",
+            "message": "Flat tire is a pain. Dads gone to lock master to get tools."
+          },
+          {
+            "date": "2016-08-04T12:19",
+            "type": "text",
+            "message": "Paddling from 6-8am was magical."
+          },
+          {
+            "date": "2016-08-04T15:07",
+            "type": "text",
+            "message": "Having a cold brew @ Jones falls. Canoe ready to set in the water when we are done."
+          },
+          {
+            "date": "2016-08-04T15:08",
+            "type": "text",
+            "message": "No food to be had except for beer and ice cream. Too bad so sad."
+          },
+          {
+            "date": "2016-08-04T15:12",
+            "type": "text",
+            "message": "We still have pepper eyes and cheese and veggie sticks."
+          },
+          {
+            "date": "2016-08-04T15:20",
+            "type": "text",
+            "message": "I think so. Oranges granola. Also have pkge noodles and a vegan version of Lipton chicken soup. Not starving. Food bag is still heavy."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.2922215, 44.5629017]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-04T17:21",
+            "type": "text",
+            "message": "Just made it to Davis lock. Wind changed direction on us."
+          },
+          {
+            "date": "2016-08-04T17:25",
+            "type": "text",
+            "message": "Done! We can swim here halleluja."
+          },
+          {
+            "date": "2016-08-04T17:25",
+            "type": "text",
+            "message": "They are expecting the racers tomorrow mid morning"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3199992, 44.5789537]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-05T07:40",
+            "type": "text",
+            "message": "At Chaffee s locks port aged and ready to head to newborn"
+          },
+          {
+            "date": "2016-08-05T08:44",
+            "type": "text",
+            "message": "Heading across new boro lale now gusty"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3213645, 44.6458227]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-05T10:17",
+            "type": "text",
+            "message": "@ newborow. Walking into town for supplies."
+          },
+          {
+            "date": "2016-08-05T10:18",
+            "type": "text",
+            "message": "Racers due in about an hour"
+          },
+          {
+            "date": "2016-08-05T10:39",
+            "type": "text",
+            "message": "It was big enuff to get lost."
+          },
+          {
+            "date": "2016-08-05T10:40",
+            "type": "text",
+            "message": "But not too badly."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.2956489, 44.7029581]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-05T13:55",
+            "type": "text",
+            "message": "Made it to narrows. Huge winds. Fortunately at our back. Resting here to see if it calms down."
+          },
+          {
+            "date": "2016-08-05T13:55",
+            "type": "text",
+            "message": "First two race canoes are here. One just left."
+          },
+          {
+            "date": "2016-08-05T14:08",
+            "type": "text",
+            "message": "TeamManitoulin just arrived. 8 in the boat"
+          },
+          {
+            "date": "2016-08-05T14:56",
+            "type": "text",
+            "message": "It looks like we will wait out the storm here. And head out across big Rideau very early tomorrow b"
+          }
+        ]
+      }
+    }
+  ]
+}
