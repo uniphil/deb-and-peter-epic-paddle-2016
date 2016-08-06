@@ -351,6 +351,38 @@
             "date": "2016-08-05T19:36",
             "type": "text",
             "message": "Too late for that hope. It's ok. Tomorrow we are staying at dad's friends house in smiths falls. Plan is for them to pick us up on poomanalie. Since we cut today short."
+          },
+          {
+            "date": "2016-08-06T05:15",
+            "type": "text",
+            "message": "Leaving narrows. Heading up north shore of big R then crossing over part way at narrows"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.2076316, 44.7836891]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-06T08:00",
+            "type": "text",
+            "message": "Having tea and oranges @Murphys pt. top of narrows."
+          },
+          {
+            "date": "2016-08-06T08:01",
+            "type": "text",
+            "message": "Hoping to have lunch @ Rideau Ferry."
+          },
+          {
+            "date": "2016-08-06T08:02",
+            "type": "text",
+            "message": "Weather is perfect."
           }
         ]
       }
