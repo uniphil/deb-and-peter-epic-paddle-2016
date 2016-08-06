@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Deb and Peter's Epic Paddle 2016</title>
+    <style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 100vh;
+}
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script>
+var map = L.map('map');
+
+map
+  .fitBounds([
+    [44.2431381, -76.479546],
+    [45.4282501, -75.6708371],
+  ], {
+    padding: [20, 20],
+  });
+
+L
+  .tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png')
+  .addTo(map);
+
+function get(url, cb) {
+  var request = new XMLHttpRequest();
+  request.onload = function() {
+    if (request.status >= 200 && request.status) {
+      var data;
+      try {
+        data = JSON.parse(request.responseText);
+      } catch (err) {
+        cb(new Error('JSON error'));
+        return;
+      }
+      cb(null, data);
+    } else {
+      cb(new Error('Server error'));
+    }
+  };
+  request.onerror = function() {
+    cb(new Error('Connection error'));
+  };
+  request.open('GET', url, true);
+  request.send();
+}
+
+const eventType = {
+  start: 'Start',
+  checkin: 'Check-in',
+  break: 'Break',
+  stop: 'Camp',
+};
+
+const ets = {
+  text: function(t) {
+    return (
+      '<div class="text">' +
+        '<p>' + t.message + '</p>' +
+      '</div>' +
+    '');
+  }
+};
+
+function templateEvent(event) {
+  return ets[event.type](event);
+}
+
+get('/data.geojson', function(err, data) {
+  if (err) {
+    alert('Oh no, ' + err.message);
+    return;
+  }
+  L
+    .geoJson(data, {
+      // style: function(feature) {
+      //   console.log('s');
+      // },
+      onEachFeature: function(feature, layer) {
+        console.log(feature.properties)
+        layer.bindPopup(
+          '<h2>' + eventType[feature.properties.type] + '</h2>' +
+          feature.properties.events
+            .map(templateEvent)
+            .join('') +
+        '');
+      },
+    })
+    .addTo(map);
+});
+
+    </script>
+  </body>
+</html>
