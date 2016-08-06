@@ -31,7 +31,9 @@ map
   });
 
 L
-  .tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png')
+  .tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
+    detectRetina: 'true',
+  })
   .addTo(map);
 
 function get(url, cb) {
