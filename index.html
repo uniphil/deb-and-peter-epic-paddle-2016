@@ -77,7 +77,7 @@ function templateEvent(event) {
   return ets[event.type](event);
 }
 
-get('/data.geojson', function(err, data) {
+get('data.geojson', function(err, data) {
   if (err) {
     alert('Oh no, ' + err.message);
     return;
