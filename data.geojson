@@ -403,6 +403,33 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.0559499, 44.8928391]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-06T14:14",
+            "type": "text",
+            "message": "Arrived at Poomamalie 2 hrs ahead of schedule. They just told us it's the half way mark. Staying in smiths falls tonight at a colleague of dads. I'll try to send some pictures from there."
+          },
+          {
+            "date": "2016-08-06T14:15",
+            "type": "text",
+            "message": "Yes. There is a great quilt shop 💃🏻"
+          },
+          {
+            "date": "2016-08-06T14:16",
+            "type": "text",
+            "message": "So/sew I got new needles And a pattern with a great new idea. And we found a place with sandwiches."
+          }
+        ]
+      }
     }
   ]
 }
