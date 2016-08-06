@@ -66,6 +66,22 @@ const eventType = {
   stop: 'Camp',
 };
 
+function _i(url) {
+  return L.icon({
+    iconUrl: url,
+    iconSize: [24, 29],
+    iconAnchor: [12, 29],
+    popupAnchor: [0, -27],
+  });
+}
+
+const iconType = {
+  start: _i('start.svg'),
+  checkin: _i('break.svg'),
+  break: _i('break.svg'),
+  stop: _i('pause.svg'),
+};
+
 const ets = {
   text: function(t) {
     return (
@@ -87,11 +103,14 @@ get('data.geojson', function(err, data) {
   }
   L
     .geoJson(data, {
-      // style: function(feature) {
-      //   console.log('s');
-      // },
+      pointToLayer: function(feature, latLng) {
+        return L.marker(latLng, {
+          icon: iconType[feature.properties.type],
+          title: eventType[feature.properties.type],
+          riseOnHover: true,
+        });
+      },
       onEachFeature: function(feature, layer) {
-        console.log(feature.properties)
         layer.bindPopup(
           '<h2>' + eventType[feature.properties.type] + '</h2>' +
           feature.properties.events
