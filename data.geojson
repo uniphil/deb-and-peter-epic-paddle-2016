@@ -494,6 +494,28 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.9303839, 44.884545]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-07T13:29",
+            "type": "text",
+            "message": "One downpour. We had just pulled the canoe out at Edmonds. We were able to stay dry."
+          },
+          {
+            "date": "2016-08-07T13:30",
+            "type": "text",
+            "message": "Now at our destination for today. Kilmarnock. Very quiet here. Going to take it easy."
+          }
+        ]
+      }
     }
   ]
 }
