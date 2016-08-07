@@ -427,6 +427,65 @@
             "date": "2016-08-06T14:16",
             "type": "text",
             "message": "So/sew I got new needles And a pattern with a great new idea. And we found a place with sandwiches."
+          },
+          {
+            "date": "2016-08-07T08:08",
+            "type": "text",
+            "message": "Getting ready to leave Poomanalie."
+          },
+          {
+            "date": "2016-08-07T08:10",
+            "type": "text",
+            "message": "Spent a wonderful evening with Lydia and Jeff. And slet soundly in  marvellous bed."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.0207724, 44.8969581]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-07T09:45",
+            "type": "text",
+            "message": "In the locks at SF. 7.8 meters going down in one lock."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.0044244, 44.8930465]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-07T10:34",
+            "type": "text",
+            "message": "Those locks were awesome. Now we are waiting at old sluys lock. Don't know where staff is. Portaging is prohibited here because of the busy road crossing."
+          },
+          {
+            "date": "2016-08-07T10:35",
+            "type": "text",
+            "message": "Not likely to be early today. First time this has happened."
+          },
+          {
+            "date": "2016-08-07T10:36",
+            "type": "text",
+            "message": "When we passed through Smith Falls Lydia met us at the locks with coffee and doughnuts."
+          },
+          {
+            "date": "2016-08-07T10:38",
+            "type": "text",
+            "message": "Just heard some cranking. Because of the bridge position it is difficult to see what's going on."
           }
         ]
       }
