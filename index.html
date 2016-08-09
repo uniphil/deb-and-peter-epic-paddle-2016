@@ -13,23 +13,36 @@ body {
 #map {
   height: 100vh;
 }
-.leaflet-popup-content {
-  margin-right: 0;
-  min-width: 240px;
-}
-.events {
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
-}
-.photo img {
-  max-width: 100%;
-}
     </style>
   </head>
   <body>
     <div id="map"></div>
     <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <style>
+.leaflet-popup-content {
+  margin: 13px 0 13px 13px;
+  min-width: 240px;
+}
+.events {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.text p {
+  margin-bottom: 0;
+}
+.text time {
+  color: #666;
+  display: block;
+  font-style: italic;
+  margin-bottom: 1em;
+  text-align: right;
+}
+.photo img {
+  max-width: 100%;
+}
+    </style>
     <script>
 var map = L.map('map');
 
@@ -98,6 +111,9 @@ const ets = {
     return (
       '<div class="text">' +
         '<p>' + t.message + '</p>' +
+        '<time datetime="' + t.date + '" class="date">' +
+          new Date(t.date).toLocaleTimeString() +
+        '</time>' +
       '</div>' +
     '');
   },
