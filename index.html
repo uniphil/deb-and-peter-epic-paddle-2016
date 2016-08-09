@@ -13,6 +13,9 @@ body {
 #map {
   height: 100vh;
 }
+.photo img {
+  max-width: 100%;
+}
     </style>
   </head>
   <body>
@@ -27,7 +30,7 @@ map
     [44.2431381, -76.479546],
     [45.4282501, -75.6708371],
   ], {
-    padding: [20, 20],
+    padding: [12, 12],
   });
 
 L
@@ -89,7 +92,20 @@ const ets = {
         '<p>' + t.message + '</p>' +
       '</div>' +
     '');
-  }
+  },
+  photo: function(t) {
+    return (
+      '<div class="photo">' +
+        '<a href="' + t.source + '" target="_blank">' +
+          '<img ' +
+            'alt="' + t.alt + '" ' +
+            'src="' + t.source + '" ' +
+            'title="' + t.caption + '" ' +
+            ' />' +
+        '</a>' +
+      '</div>' +
+    '');
+  },
 };
 
 function templateEvent(event) {
