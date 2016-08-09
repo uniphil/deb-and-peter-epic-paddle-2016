@@ -516,6 +516,82 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.8348626, 44.9169892]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-08T09:15",
+            "type": "text",
+            "message": "We just finished the long portage at meerickville. Going to find breakfast"
+          },
+          {
+            "date": "2016-08-08T09:15",
+            "type": "text",
+            "message": "Then heading to Burrits Rapids."
+          },
+          {
+            "date": "2016-08-08T09:16",
+            "type": "text",
+            "message": "Stopping for a shower at nicholsons"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.8175002, 44.9512415]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-08T11:35",
+            "type": "text",
+            "message": "Left Merrickville @ 11. Just arrived @Clowes."
+          },
+          {
+            "date": "2016-08-08T11:35",
+            "type": "text",
+            "message": "Portage time."
+          },
+          {
+            "date": "2016-08-08T11:55",
+            "type": "text",
+            "message": "Getting ready to leave clowes for Nicholson."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.7866181, 44.9824861]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-08T14:25",
+            "type": "text",
+            "message": "Reached Burritts Rapids. Too good to be true."
+          },
+          {
+            "date": "2016-08-08T16:12",
+            "type": "text",
+            "message": "Dad and I enjoyed a brew, went for a swim and just had lunch."
+          }
+        ]
+      }
     }
   ]
 }
