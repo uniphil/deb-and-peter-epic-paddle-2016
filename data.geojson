@@ -681,6 +681,89 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.6801438, 45.04741]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-09T07:22",
+            "type": "text",
+            "message": "Left BR @ 5:20 am. At bridge co Rd 44"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.6237005, 45.0978889]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-09T09:00",
+            "type": "text",
+            "message": "Reached Baxter 25 minutes ago. Rest stop."
+          },
+          {
+            "date": "2016-08-09T09:08",
+            "type": "text",
+            "message": "It feels closer to 22 here. River has felt sheltered from the wind."
+          },
+          {
+            "date": "2016-08-09T09:15",
+            "type": "text",
+            "message": "We passed under the 416 bridge. Something I have wondered if I could ever do every time I have driven over it."
+          },
+          {
+            "date": "2016-08-09T10:05",
+            "type": "text",
+            "message": "Leaving Baxter. Next stop manotick"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.6338418, 45.161898]
+      },
+      "properties": {
+        "type": "break",
+        "events": [
+          {
+            "date": "2016-08-09T11:26",
+            "type": "text",
+            "message": "Shade break just before roger Stevens bridge."
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.7019514, 45.2505]
+      },
+      "properties": {
+        "type": "stop",
+        "events": [
+          {
+            "date": "2016-08-09T14:10",
+            "type": "text",
+            "message": "Just arrived @destination. North end of LongIsland manotick. 40km. Too much."
+          }
+        ]
+      }
     }
   ]
 }
