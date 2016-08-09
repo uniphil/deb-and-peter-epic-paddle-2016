@@ -13,6 +13,14 @@ body {
 #map {
   height: 100vh;
 }
+.leaflet-popup-content {
+  margin-right: 0;
+  min-width: 240px;
+}
+.events {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
 .photo img {
   max-width: 100%;
 }
@@ -129,9 +137,11 @@ get('data.geojson', function(err, data) {
       onEachFeature: function(feature, layer) {
         layer.bindPopup(
           '<h2>' + eventType[feature.properties.type] + '</h2>' +
-          feature.properties.events
-            .map(templateEvent)
-            .join('') +
+          '<div class="events">' +
+            feature.properties.events
+              .map(templateEvent)
+              .join('') +
+          '</div>' +
         '');
       },
     })
